@@ -132,7 +132,7 @@ EOF
     systemctl restart bind9
     systemctl enable bind9
 
-    log "✅ DNSBinder setup complete for $DOMAIN → $IP"
+    log "✅ DNSBinder setup complete for $DOMAIN"
 }
 
 main "$@"
